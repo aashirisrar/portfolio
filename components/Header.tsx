@@ -58,7 +58,7 @@ export function Header() {
       <div className="flex items-center lg:px-40 md:px-20 px-6  mt-6 justify-between">
         <div className="text-white text-lg flex gap-2 items-center">
           <Webhook />
-          Aashir Israr
+          <Link href="/">Aashir Israr</Link>
         </div>
         <div className="flex justify-end">
           <NavigationMenu>

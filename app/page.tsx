@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import Main from "@/components/Main";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <main>
         <Main />
+        <Portfolio />
       </main>
     </>
   );
