@@ -1,6 +1,7 @@
-import { Linkedin, Twitter, Youtube } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 import avatar from "@/public/avatar.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -22,9 +23,18 @@ const Main = () => {
             </h4>
           </div>
           <div className="mt-4 text-white/80 flex gap-10">
-            <Twitter />
-            <Linkedin />
-            <Youtube />
+            <Link target="_blank" href="https://twitter.com/aashir_israr">
+              <Twitter />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/aashir-israr/"
+            >
+              <Linkedin />
+            </Link>
+            <Link target="_blank" href="https://github.com/aashirisrar">
+              <Github />
+            </Link>
           </div>
           <div className="mt-10 relative overflow-hidden w-48 h-48  sm:w-80 sm:h-80 rounded-full bg-gradient-to-b from-teal-500">
             <Image
