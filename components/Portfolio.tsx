@@ -23,7 +23,7 @@ const Portfolio = () => {
 
         <div className="px-8">
           <div className="text-white mt-12 flex justify-center gap-6 flex-wrap">
-            <div className="flex flex-col items-center text-center bg-[#20293d]  ; w-[24rem] p-8 rounded-lg">
+            <div className="flex flex-col items-center text-center bg-[#20293d] w-[24rem] p-6 sm:p-8 rounded-lg">
               <div>
                 <Image
                   className="rounded-lg"
