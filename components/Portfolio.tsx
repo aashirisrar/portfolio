@@ -41,10 +41,10 @@ const Portfolio = () => {
               <Link
                 target="_blank"
                 href="https://saas-ai-app.vercel.app/"
-                className="rounded-lg bg-teal-500 p-2 px-3 flex hover:bg-teal-500/90 transition"
+                className="rounded-lg bg-teal-500 p-2 px-3 flex hover:bg-teal-500/90 transition group"
               >
                 View
-                <ArrowRightIcon className="ml-1 w-5" />
+                <ArrowRightIcon className="ml-1 w-5 group-hover:translate-x-1 transition" />
               </Link>
             </div>
             <div className="flex flex-col items-center text-center bg-[#20293d]  ; w-[24rem] p-8 rounded-lg">
@@ -58,16 +58,16 @@ const Portfolio = () => {
               </div>
               <div className="my-6 text-xl">AI Article Summarizer</div>
               <div className="mb-8">
-                An AI generator that generates code, video, images, music and
-                talks with you.
+                An AI article summarizer that summarizes a website's complete
+                text.
               </div>
               <Link
                 href="https://articlesummarizergpt4.netlify.app/"
                 target="_blank"
-                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+                className="rounded-lg bg-teal-500 p-2 px-3 hover:bg-teal-500/90 transition flex group"
               >
                 View
-                <ArrowRightIcon className="ml-1 w-5" />
+                <ArrowRightIcon className="ml-1 w-5 group-hover:translate-x-1 transition" />
               </Link>
             </div>
           </div>
@@ -84,16 +84,15 @@ const Portfolio = () => {
               </div>
               <div className="my-6 text-lg">Recipe App</div>
               <div className="mb-8">
-                An AI generator that generates code, video, images, music and
-                talks with you.
+                A recipe app that has thousands of recipes.
               </div>
               <Link
                 href="https://react-recipe-app-3.netlify.app/"
                 target="_blank"
-                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+                className="rounded-lg bg-teal-500 p-2 px-3 hover:bg-teal-500/90 transition flex group"
               >
                 View
-                <ArrowRightIcon className="ml-1 w-5" />
+                <ArrowRightIcon className="ml-1 w-5 group-hover:translate-x-1 transition" />
               </Link>
             </div>
             <div className="flex flex-col items-center text-center bg-[#20293d]  ; w-[24rem] p-8 rounded-lg">
@@ -107,16 +106,15 @@ const Portfolio = () => {
               </div>
               <div className="my-6 text-lg">Ecommerce Website</div>
               <div className="mb-8">
-                An AI generator that generates code, video, images, music and
-                talks with you.
+                An ecommerce app with shop and cart options.
               </div>
               <Link
                 href="https://react-ecommerce-3.netlify.app/"
                 target="_blank"
-                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+                className="rounded-lg bg-teal-500 p-2 px-3 hover:bg-teal-500/90 transition flex group"
               >
                 View
-                <ArrowRightIcon className="ml-1 w-5" />
+                <ArrowRightIcon className="ml-1 w-5 group-hover:translate-x-1 transition" />
               </Link>
             </div>
           </div>
