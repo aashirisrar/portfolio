@@ -58,7 +58,7 @@ const Portfolio = () => {
               </div>
               <div className="my-6 text-xl">AI Article Summarizer</div>
               <div className="mb-8">
-                An AI article summarizer that summarizes a website's complete
+                An AI article summarizer that summarizes a website complete
                 text.
               </div>
               <Link
