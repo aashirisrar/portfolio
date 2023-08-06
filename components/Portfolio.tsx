@@ -4,6 +4,7 @@ import work3 from "@/public/work3.jpg";
 import work4 from "@/public/work4.jpg";
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
@@ -32,15 +33,19 @@ const Portfolio = () => {
                   alt="work1"
                 ></Image>
               </div>
-              <div className="my-6">AI Generator</div>
-              <div className="mb-5">
+              <div className="my-6 text-xl">AI Generator</div>
+              <div className="mb-8">
                 An AI generator that generates code, video, images, music and
                 talks with you.
               </div>
-              <div className="rounded-lg bg-teal-500 p-2 px-3 flex">
+              <Link
+                target="_blank"
+                href="https://saas-ai-app.vercel.app/"
+                className="rounded-lg bg-teal-500 p-2 px-3 flex hover:bg-teal-500/90 transition"
+              >
                 View
                 <ArrowRightIcon className="ml-1 w-5" />
-              </div>
+              </Link>
             </div>
             <div className="flex flex-col items-center text-center bg-[#20293d]  ; w-[24rem] p-8 rounded-lg">
               <div>
@@ -51,15 +56,19 @@ const Portfolio = () => {
                   alt="work2"
                 ></Image>
               </div>
-              <div className="my-6">AI Generator</div>
-              <div className="mb-5">
+              <div className="my-6 text-xl">AI Article Summarizer</div>
+              <div className="mb-8">
                 An AI generator that generates code, video, images, music and
                 talks with you.
               </div>
-              <div className="rounded-lg bg-teal-500 p-2 px-3 flex">
+              <Link
+                href="https://articlesummarizergpt4.netlify.app/"
+                target="_blank"
+                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+              >
                 View
                 <ArrowRightIcon className="ml-1 w-5" />
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -73,15 +82,19 @@ const Portfolio = () => {
                   alt="work1"
                 ></Image>
               </div>
-              <div className="my-6">AI Generator</div>
-              <div className="mb-5">
+              <div className="my-6 text-lg">Recipe App</div>
+              <div className="mb-8">
                 An AI generator that generates code, video, images, music and
                 talks with you.
               </div>
-              <div className="rounded-lg bg-teal-500 p-2 px-3 flex">
+              <Link
+                href="https://react-recipe-app-3.netlify.app/"
+                target="_blank"
+                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+              >
                 View
                 <ArrowRightIcon className="ml-1 w-5" />
-              </div>
+              </Link>
             </div>
             <div className="flex flex-col items-center text-center bg-[#20293d]  ; w-[24rem] p-8 rounded-lg">
               <div>
@@ -92,15 +105,19 @@ const Portfolio = () => {
                   alt="work1"
                 ></Image>
               </div>
-              <div className="my-6">AI Generator</div>
-              <div className="mb-5">
+              <div className="my-6 text-lg">Ecommerce Website</div>
+              <div className="mb-8">
                 An AI generator that generates code, video, images, music and
                 talks with you.
               </div>
-              <div className="rounded-lg bg-teal-500 p-2 px-3 flex">
+              <Link
+                href="https://react-ecommerce-3.netlify.app/"
+                target="_blank"
+                className="rounded-lg bg-teal-500 p-2 px-3 flex"
+              >
                 View
                 <ArrowRightIcon className="ml-1 w-5" />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
