@@ -8,7 +8,7 @@ import Image from "next/image";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <div className="mt-24">
+      <div className="my-24">
         <h2 className="text-4xl sm:text-6xl text-teal-500 text-center">
           Portfolio
         </h2>
